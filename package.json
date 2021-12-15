@@ -1,18 +1,18 @@
 {
 	"name": "@ctx-core/fontawesome-ui-svelte",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
 		"fontawesome"
 	],
-	"homepage": "https://github.com/ctx-core/fontawesome#readme",
+	"homepage": "https://github.com/ctx-core/fontawesome-ui-svelte#readme",
 	"bugs": {
-		"url": "https://github.com/ctx-core/fontawesome/issues"
+		"url": "https://github.com/ctx-core/fontawesome-ui-svelte/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/fontawesome/issues"
+		"url": "https://github.com/ctx-core/fontawesome-ui-svelte.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
@@ -29,21 +29,21 @@
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.34",
-		"@ctx-core/svg": "workspace:^16.0.1",
+		"@ctx-core/array": "workspace:^23.0.35",
+		"@ctx-core/svg": "workspace:^16.0.2",
 		"domutils": "^2.8.0",
 		"globby": "^12.0.2",
 		"htmlparser2": "^7.2.0",
 		"import-meta-resolve": "^1.1.1"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^11.0.12",
+		"@ctx-core/cli-args": "workspace:^11.0.13",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
