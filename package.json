@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome-ui-svelte",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -20,20 +20,17 @@
 		"refresh-font-awesome": "./bin/refresh-font-awesome.mjs"
 	},
 	"scripts": {
-		"build": "npm run compile",
-		"clean": "rimraf dist && npm run clean_tsbuildinfo",
-		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
-		"compile": "npm run compile_source && npm run compile_declaration",
-		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
-		"compile_declaration": "npm run clean_tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir dist",
+		"build": ":",
+		"clean": ":",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
+	"svelte": "./src/index.js",
 	"type": "module",
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js"
+			"import": "./src/index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -61,6 +58,5 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	},
-	"svelte": "./dist/index.js"
+	}
 }
