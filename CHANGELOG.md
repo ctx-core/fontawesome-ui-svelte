@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.26
+
+### Patch Changes
+
+- globby: ^12.2.0 -> ^13.0.0
+
 ## 1.0.25
 
 ### Patch Changes
