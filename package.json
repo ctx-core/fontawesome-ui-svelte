@@ -35,7 +35,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^24.0.0",
+		"@ctx-core/array": "workspace:^24.0.1",
 		"@ctx-core/object": "workspace:^22.0.13",
 		"@ctx-core/svg": "workspace:^18.0.0",
 		"@ctx-core/svg-ui-svelte": "workspace:^1.1.12",
