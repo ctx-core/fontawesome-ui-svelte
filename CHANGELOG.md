@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.30
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.1.13
+
 ## 1.0.29
 
 ### Patch Changes
