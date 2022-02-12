@@ -37,7 +37,7 @@
 	"dependencies": {
 		"@ctx-core/array": "*",
 		"@ctx-core/object": "*",
-		"@ctx-core/svg": "^18.0.5",
+		"@ctx-core/svg": "^18.0.6",
 		"@ctx-core/svg-ui-svelte": "^1.1.15",
 		"domutils": "^2.8.0",
 		"globby": "^13.1.1",
@@ -49,7 +49,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.138",
+		"@swc/core": "^1.2.139",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.46.4",
 		"svelte-preprocess": "^4.10.3",
