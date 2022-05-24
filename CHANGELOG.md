@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.53
+
+### Patch Changes
+
+- import-meta-resolve: ^2.0.0 -> ^2.0.1
+
 ## 1.0.52
 
 ### Patch Changes
