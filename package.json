@@ -33,10 +33,10 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.4.3",
+		"@ctx-core/array": "^26.5.1",
 		"@ctx-core/object": "^22.2.1",
-		"@ctx-core/svg": "^18.0.31",
-		"@ctx-core/svg-ui-svelte": "^1.1.37",
+		"@ctx-core/svg": "^18.1.0",
+		"@ctx-core/svg-ui-svelte": "^1.1.38",
 		"domutils": "^3.0.1",
 		"globby": "^13.1.1",
 		"htmlparser2": "^8.0.1",
