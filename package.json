@@ -33,7 +33,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.5.1",
+		"@ctx-core/array": "^26.5.2",
 		"@ctx-core/object": "^22.2.1",
 		"@ctx-core/svg": "^18.1.1",
 		"@ctx-core/svg-ui-svelte": "^1.1.38",
