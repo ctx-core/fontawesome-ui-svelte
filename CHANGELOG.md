@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.67
+
+### Patch Changes
+
+- svelte2tsx: ^0.5.17 -> ^0.5.18
+
 ## 1.0.66
 
 ### Patch Changes
