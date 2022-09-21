@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.68
+
+### Patch Changes
+
+- - dir-glob,path-type
+
 ## 1.0.67
 
 ### Patch Changes
