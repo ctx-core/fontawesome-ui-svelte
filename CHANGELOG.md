@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.69
+
+### Patch Changes
+
+- tiny-glob instead of globby
+
 ## 1.0.68
 
 ### Patch Changes
