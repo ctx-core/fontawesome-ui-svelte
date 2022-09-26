@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome-ui-svelte",
-	"version": "1.0.69",
+	"version": "1.0.70",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -51,7 +51,7 @@
 		"rimraf": "^3.0.2",
 		"svelte": "^3.50.1",
 		"svelte-preprocess": "^4.10.7",
-		"svelte2tsx": "^0.5.18",
+		"svelte2tsx": "^0.5.19",
 		"tiny-glob": "^0.2.9",
 		"tslib": "^2.4.0",
 		"typescript": "next"
