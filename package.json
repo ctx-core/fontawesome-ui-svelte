@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.8.0",
-		"@ctx-core/object": "^22.3.0",
+		"@ctx-core/object": "^22.4.0",
 		"@ctx-core/svg": "^18.1.8",
 		"@ctx-core/svg-ui-svelte": "^1.2.8",
 		"domutils": "^3.0.1",
