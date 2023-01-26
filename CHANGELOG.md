@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.102
+
+### Patch Changes
+
+- tslib: ^2.4.1 -> ^2.5.0
+
 ## 1.0.101
 
 ### Patch Changes
