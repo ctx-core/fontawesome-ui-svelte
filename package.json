@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome-ui-svelte",
-	"version": "1.0.118",
+	"version": "1.0.119",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -42,7 +42,7 @@
 		"import-meta-resolve": "^2.2.1"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "^11.0.69",
+		"@ctx-core/cli-args": "^11.1.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.61",
