@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.171
+
+### Patch Changes
+
+- @ctx-core/cli-args: ^11.1.33 -> ^11.2.0
+
 ## 1.0.170
 
 ### Patch Changes
