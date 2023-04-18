@@ -33,9 +33,9 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.12.12",
-		"@ctx-core/cli-args": "^11.3.1",
-		"@ctx-core/object": "^27.4.4",
+		"@ctx-core/array": "^26.12.25",
+		"@ctx-core/cli-args": "^11.3.14",
+		"@ctx-core/object": "^27.4.16",
 		"@ctx-core/svg": "^18.2.43",
 		"@ctx-core/svg-ui-svelte": "^1.2.99",
 		"dom-serializer": "^2.0.0",
