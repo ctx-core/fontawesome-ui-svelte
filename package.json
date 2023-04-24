@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome-ui-svelte",
-	"version": "1.0.196",
+	"version": "1.0.197",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -41,7 +41,7 @@
 		"dom-serializer": "^2.0.0",
 		"domutils": "^3.0.1",
 		"htmlparser2": "^8.0.2",
-		"import-meta-resolve": "^2.2.2",
+		"import-meta-resolve": "^3.0.0",
 		"svelte": "^3.58.0",
 		"tiny-glob": "^0.2.9"
 	},
