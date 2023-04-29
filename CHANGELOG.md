@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.201
+
+### Patch Changes
+
+- domutils: ^3.0.1 -> ^3.1.0
+
 ## 1.0.200
 
 ### Patch Changes
