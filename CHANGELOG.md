@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.209
+
+### Patch Changes
+
+- htmlparser2: ^8.0.2 -> ^9.0.0
+- Updated dependencies
+  - @ctx-core/svg@18.2.71
+  - @ctx-core/svg-ui-svelte@1.2.129
+
 ## 1.0.208
 
 ### Patch Changes
