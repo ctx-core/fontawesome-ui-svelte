@@ -23,7 +23,7 @@
 		"build": ":",
 		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build"
+		"prepublishOnly": "pnpm clean && pnpm build"
 	},
 	"svelte": "./src/index.js",
 	"type": "module",
