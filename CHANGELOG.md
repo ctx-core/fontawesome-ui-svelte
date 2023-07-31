@@ -1,5 +1,18 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.0.249
+
+### Patch Changes
+
+- @ctx-core/array: ^26.12.44 -> ^26.12.45
+- @ctx-core/cli-args: ^11.3.33 -> ^11.3.34
+- @ctx-core/object: ^28.0.3 -> ^28.0.4
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg@18.2.107
+  - @ctx-core/svg-ui-svelte@1.2.169
+
 ## 1.0.248
 
 ### Patch Changes
