@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome-ui-svelte",
-	"version": "1.0.272",
+	"version": "1.1.0",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -23,21 +23,28 @@
 		"build": ":",
 		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "pnpm clean && pnpm build"
+		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "uvu . '\\.test\\.(ts|tsx|js|jsx)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
 	},
-	"svelte": "./src/index.js",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"files": [
+		"*.d.ts",
+		"./bin",
+		"./ui"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/cli-args": "^11.3.46",
-		"@ctx-core/object": "^30.0.0",
-		"@ctx-core/svg": "^18.3.18",
-		"@ctx-core/svg-ui-svelte": "^1.2.191",
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/cli-args": "^11.4.0",
+		"@ctx-core/object": "^30.1.0",
+		"@ctx-core/svg": "^18.4.0",
+		"@ctx-core/svg-ui-svelte": "^1.3.0",
 		"dom-serializer": "^2.0.0",
 		"domutils": "^3.1.0",
 		"htmlparser2": "^9.0.0",
