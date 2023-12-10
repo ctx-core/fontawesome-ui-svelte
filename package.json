@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome-ui-svelte",
-	"version": "1.1.46",
+	"version": "1.1.47",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -42,11 +42,11 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.1.2",
-		"@ctx-core/cli-args": "^11.4.41",
-		"@ctx-core/object": "^31.1.22",
-		"@ctx-core/svg": "^18.4.46",
-		"@ctx-core/svg-ui-svelte": "^1.3.46",
+		"@ctx-core/array": "^27.1.3",
+		"@ctx-core/cli-args": "^11.4.42",
+		"@ctx-core/object": "^31.1.23",
+		"@ctx-core/svg": "^18.4.47",
+		"@ctx-core/svg-ui-svelte": "^1.3.47",
 		"dom-serializer": "^2.0.0",
 		"domutils": "^3.1.0",
 		"htmlparser2": "^9.0.0",
