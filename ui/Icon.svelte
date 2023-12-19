@@ -1,6 +1,6 @@
 <script lang="ts">
-import { unpick } from '@ctx-core/object'
 import { Icon } from '@ctx-core/svg-ui-svelte'
+import { unpick } from 'ctx-core/object'
 export let node = null
 let node__
 $: node__, node = node__
