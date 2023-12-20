@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { param_r_ } from '@ctx-core/cli-args'
 import { map, sort } from 'ctx-core/array'
+import { param_r_ } from 'ctx-core/cli-args'
 import { assign, keys } from 'ctx-core/object'
 import { render } from 'dom-serializer'
 import { readFile, writeFile } from 'fs/promises'
