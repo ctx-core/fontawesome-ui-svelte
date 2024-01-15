@@ -1,5 +1,15 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.1.107
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+  - @ctx-core/svg@19.0.24
+  - @ctx-core/svg-ui-svelte@1.3.106
+
 ## 1.1.106
 
 ### Patch Changes

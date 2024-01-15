@@ -3,10 +3,10 @@ import { map, sort } from 'ctx-core/array'
 import { param_r_ } from 'ctx-core/cli-args'
 import { assign, keys } from 'ctx-core/object'
 import { render } from 'dom-serializer'
-import { readFile, writeFile } from 'fs/promises'
+import { readFile, writeFile } from 'node:fs/promises'
 import { DomHandler, Parser } from 'htmlparser2'
 import { resolve } from 'import-meta-resolve'
-import { basename, dirname } from 'path'
+import { basename, dirname } from 'node:path'
 import glob from 'tiny-glob'
 await main()
 async function main() {
