@@ -1,5 +1,15 @@
 # @ctx-core/fontawesome-ui-svelte
 
+## 1.1.260
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/svg@19.0.143
+  - @ctx-core/svg-ui-svelte@1.3.258
+
 ## 1.1.259
 
 ### Patch Changes
